@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/")
 class ViewController {
     @GetMapping
-    public String view(){
+    public String view() {
         return "view";
     }
 }
